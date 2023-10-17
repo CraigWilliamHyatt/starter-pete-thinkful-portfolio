@@ -16,9 +16,34 @@ h3 {
   text-align: center;
 }
 
+#about section:first-of-type {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
 /* Header */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+#portfolio section {
+  display: flex;
+  column-gap: 10px;
+  align-items: flex-start;
+}
+
+#portfolio section div{
+  width: auto;
+  margin: 0;
   text-align: center;
+}
+
+#portfolio section div img{
+  width: auto;
 }
 
 /* Containers */
@@ -30,11 +55,6 @@ div {
 
 article {
   padding: 50px 0;
-}
-
-article div {
-  text-align: center;
-  width: 100%;
 }
 
 /* Paragraphs */
@@ -65,6 +85,7 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  flex: 0 0 auto;
 }
 
 /* Footer */
